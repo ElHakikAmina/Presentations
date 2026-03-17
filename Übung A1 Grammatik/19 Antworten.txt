@@ -1,0 +1,31 @@
+a) Trinkt ihr Cola? (Orangensaft)
+Nein, wir trinken Orangensaft.
+لا، نحن نشرب عصير البرتقال.
+
+b) Arbeitest du in Berlin? (Köln)
+Nein, ich arbeite in Köln.
+لا، أنا أعمل في كولن.
+
+c) Kommt ihr aus Österreich? (Spanien)
+Nein, wir kommen aus Spanien.
+لا، نحن نأتي من إسبانيا.
+
+d) Antwortest du? (nicht)
+Nein, ich antworte nicht.
+لا، أنا لا أجيب.
+
+e) Geht ihr ins Kino? (nach Hause)
+Nein, wir gehen nach Hause.
+لا، نحن نذهب إلى المنزل.
+
+f) Kaufst du Käse? (Wurst)
+Nein, ich kaufe Wurst.
+لا، أنا أشتري نقانق.
+
+g) Studiert ihr in Wien? (Passau)
+Nein, wir studieren in Passau.
+لا، نحن ندرس في باساو.
+
+h) Fliegst du nach Tokio? (Kairo)
+Nein, ich fliege nach Kairo.
+لا، أنا أسافر إلى القاهرة.

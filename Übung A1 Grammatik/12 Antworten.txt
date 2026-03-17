@@ -1,0 +1,29 @@
+a) Ich komm__ morgen.
+Ich komme morgen.
+Morgen komme ich.
+أنا آتي غداً.
+
+b) Maria studier__ Informatik.
+Maria studiert Informatik.
+Informatik studiert Maria.
+ماريا تدرس الإعلاميات.
+
+c) Du wohn___ in Passau.
+Du wohnst in Passau.
+In Passau wohnst du.
+أنت تسكن في باساو.
+
+d) Wir trink___ Saft.
+Wir trinken Saft.
+Saft trinken wir.
+نحن نشرب عصير.
+
+e) Ihr studier__ in Passau.
+Ihr studiert in Passau.
+In Passau studiert ihr.
+أنتم تدرسون في باساو.
+
+f) Carlos kauf__ Obst.
+Carlos kauft Obst.
+Obst kauft Carlos.
+كارلوس يشتري فاكهة.

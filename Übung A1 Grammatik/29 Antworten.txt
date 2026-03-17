@@ -1,0 +1,15 @@
+Was ist das? Ist das Brot?
+Nein, das ist kein Brot. Das ist Kuchen.
+ما هذا؟ هل هذا خبز؟ لا، هذا ليس خبزاً، هذا كعك.
+
+Was ist das? Ist das Suppe?
+Nein, das ist keine Suppe. Das ist Kaffee.
+ما هذا؟ هل هذا حساء؟ لا، هذا ليس حساءً، هذا قهوة.
+
+Was ist das? Ist das Milch?
+Nein, das ist keine Milch. Das ist Wasser.
+ما هذا؟ هل هذا حليب؟ لا، هذا ليس حليباً، هذا ماء.
+
+Was ist das? Ist das Apfelsaft?
+Nein, das ist kein Apfelsaft. Das ist Bier.
+ما هذا؟ هل هذا عصير تفاح؟ لا، هذا ليس عصير تفاح، هذا بيرة.

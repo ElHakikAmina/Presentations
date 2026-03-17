@@ -1,0 +1,35 @@
+a) Das ist ein Stuhl.
+هذا كرسي.
+
+b) Das ist eine Tasche.
+هذه حقيبة.
+
+c) Das ist eine Mappe.
+هذا ملف.
+
+d) Das sind Stifte.
+هذه أقلام.
+
+e) Das ist eine Tasse.
+هذا كوب.
+
+f) Das ist ein Computer.
+هذا حاسوب.
+
+g) Das ist eine Jacke.
+هذه سترة.
+
+h) Das sind Äpfel.
+هذه تفاحات.
+
+i) Das ist eine Tür.
+هذا باب.
+
+j) Das sind Deutschbücher.
+هذه كتب ألمانية.
+
+k) Das sind Blumen.
+هذه زهور.
+
+l) Das sind Schuhe.
+هذه أحذية.
