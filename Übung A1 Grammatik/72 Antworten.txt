@@ -1,0 +1,63 @@
+a)
+Spielst du Schach?
+Ja, ich kann Schach spielen.
+Nein, ich kann nicht Schach spielen.
+هل تلعب الشطرنج؟
+نعم، أستطيع لعب الشطرنج.
+لا، لا أستطيع لعب الشطرنج.
+
+b)
+Spielst du Tischtennis?
+Ja, ich kann Tischtennis spielen.
+Nein, ich kann nicht Tischtennis spielen.
+هل تلعب تنس الطاولة؟
+نعم، أستطيع لعب تنس الطاولة.
+لا، لا أستطيع لعب تنس الطاولة.
+
+c)
+Spielst du Karten?
+Ja, ich kann Karten spielen.
+Nein, ich kann nicht Karten spielen.
+هل تلعب الورق؟
+نعم، أستطيع لعب الورق.
+لا، لا أستطيع لعب الورق.
+
+d)
+Spielst du Theater?
+Ja, ich kann Theater spielen.
+Nein, ich kann nicht Theater spielen.
+هل تمثل في المسرح؟
+نعم، أستطيع التمثيل.
+لا، لا أستطيع التمثيل.
+
+e)
+Spielst du Roulette?
+Ja, ich kann Roulette spielen.
+Nein, ich kann nicht Roulette spielen.
+هل تلعب الروليت؟
+نعم، أستطيع لعب الروليت.
+لا، لا أستطيع لعب الروليت.
+
+f)
+Spielst du Geige?
+Ja, ich kann Geige spielen.
+Nein, ich kann nicht Geige spielen.
+هل تعزف على الكمان؟
+نعم، أستطيع العزف على الكمان.
+لا، لا أستطيع العزف على الكمان.
+
+g)
+Spielst du Golf?
+Ja, ich kann Golf spielen.
+Nein, ich kann nicht Golf spielen.
+هل تلعب الغولف؟
+نعم، أستطيع لعب الغولف.
+لا، لا أستطيع لعب الغولف.
+
+h)
+Spielst du Fußball?
+Ja, ich kann Fußball spielen.
+Nein, ich kann nicht Fußball spielen.
+هل تلعب كرة القدم؟
+نعم، أستطيع لعب كرة القدم.
+لا، لا أستطيع لعب كرة القدم.
