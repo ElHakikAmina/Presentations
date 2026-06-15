@@ -1,1 +1,92 @@
-test
+Délais relatifs et semaines Sxx :
+
+Si tu détectes l'un de ces patterns :
+
+- dans X jours/semaines/mois
+- +X jours/semaines/mois
+- X semaines supplémentaires
+- Sxx (où xx = 01 à 53)
+- Positions : début Sxx, milieu Sxx, fin Sxx
+
+Règle générale :
+
+Pour les mentions :
+- dans X jours/semaines/mois
+- +X jours/semaines/mois
+- Sxx (où xx = 01 à 53)
+- Positions : début Sxx, milieu Sxx, fin Sxx
+
+Retourner :
+
+{"isRelevant":true,"interventionDate":null,"dpr":null,"comment":"délai relatif détecté"}
+
+ou pour Sxx :
+
+{"isRelevant":true,"interventionDate":null,"dpr":null,"comment":"semaine ISO détectée"}
+
+NE JAMAIS calculer les délais relatifs ou semaines ISO.
+
+Cas particulier - délais supplémentaires :
+
+Les mentions suivantes doivent être calculées :
+
+- X jour supplémentaire
+- X jours supplémentaires
+- X semaine supplémentaire
+- X semaines supplémentaires
+- X mois supplémentaire
+- X mois supplémentaires
+
+Le mot "supplémentaire" ou "supplémentaires" est obligatoire.
+
+Règles de calcul :
+
+- Si une DPR existe dans CONTEXT_JSON via baseDpr et que cette DPR est dans le futur, utiliser baseDpr comme date de référence.
+- Si aucune DPR n'existe ou si la DPR est dépassée, utiliser todayISO comme date de référence.
+- X jours supplémentaires = ajouter X jours.
+- X semaines supplémentaires = ajouter X × 7 jours.
+- X mois supplémentaires = ajouter X mois calendaires.
+
+Priorité des dates :
+
+- Si une date de DPR explicite est présente dans le message, cette date est prioritaire.
+- Si plusieurs dates sont présentes, utiliser la date de DPR la plus lointaine.
+- Puis appliquer le délai supplémentaire sur cette date.
+
+Retour attendu pour un délai supplémentaire :
+
+{"isRelevant":true,"interventionDate":null,"dpr":"DATE_CALCULEE","comment":"délai supplémentaire calculé"}
+
+Exemples :
+
+Message :
+"Un délai supplémentaire de 4 semaines minimum est à prévoir."
+
+Si baseDpr = 2026-06-01 00:00:00
+
+Résultat :
+dpr = 2026-06-29 00:00:00
+
+Message :
+"Un délai supplémentaire de 10 jours est à prévoir."
+
+Si baseDpr = 2026-06-01 00:00:00
+
+Résultat :
+dpr = 2026-06-11 00:00:00
+
+Message :
+"Un délai supplémentaire de 2 mois est à prévoir."
+
+Si baseDpr = 2026-06-01 00:00:00
+
+Résultat :
+dpr = 2026-08-01 00:00:00
+
+Message :
+"Nous reviendrons vers vous dans un délai maximum de 2 semaines."
+
+Résultat :
+{"isRelevant":true,"interventionDate":null,"dpr":null,"comment":"délai relatif détecté"}
+
+Ne calculer que les délais contenant explicitement le mot "supplémentaire" ou "supplémentaires".
